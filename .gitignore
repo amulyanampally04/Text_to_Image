@@ -1,0 +1,36 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated files
+*.tmp
+*.temp
+
+# Python packaging
+build/
+dist/
+*.egg-info/
